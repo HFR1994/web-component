@@ -10,7 +10,8 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "experimentalDecorators": true,
-    "outDir": "build"
+    "outDir": "build",
+    "sourceMap": true
   },
   "include": [
     "src/**/*.ts"
