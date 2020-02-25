@@ -6,7 +6,7 @@ import {LitElement, html, customElement, css} from 'lit-element';
 import '../paragraph/index'
 
 
-@customElement('my-other-element')
+@customElement('web-polymer')
 export class MyOtherElement extends LitElement {
 
   static get styles() {
@@ -27,9 +27,11 @@ export class MyOtherElement extends LitElement {
      * the element template.
      */
     return html`
-    <my-paragraph>
+    <my-paragraph my-string="Aqui estoy">
       <p>Render Me</p>
     </my-paragraph>
+    
+    <my-paragraph/>
     `;
   }
 }
