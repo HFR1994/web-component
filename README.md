@@ -25,9 +25,3 @@ Usage:
       <web-polymer></web-polymer>
     </body>
     </html>
-
-Where the available options are:
-
-| Property      | Type          | Description                                                 |
-| ------------- | ------------- | ----------------------------------------------------------- |
-| text          | String        | Text to render, element won't render if no text is supplied |
