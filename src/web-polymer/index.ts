@@ -11,7 +11,7 @@ export class MyOtherElement extends LitElement {
 
   static get styles() {
     return css`
-    my-paragraph {
+    #first {
       font-family: Roboto;
       color: blue;
     }
@@ -27,9 +27,11 @@ export class MyOtherElement extends LitElement {
      * the element template.
      */
     return html`
-    <my-paragraph my-string="Aqui estoy">
+    <my-paragraph id="first" myString="Aqui estoy">
       <p>Render Me</p>
     </my-paragraph>
+    
+    <div>--------------</div>
     
     <my-paragraph/>
     `;
